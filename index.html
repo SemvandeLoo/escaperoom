@@ -45,5 +45,26 @@
     <section class="hulp" id="hulp">
       <h2>Hulplijn bij Digi-dingen</h2>
       <p>Als Lisa het probleem in de belangrijke e-mail niet kan oplossen, kan ze altijd bellen naar de Digihulplijn voor hulp en advies bij digi-dingen.</p>
-      <p>Het
+      <p>Het telefoonnummer van de Digihulplijn is: <a href="tel:0800123456">0800-123456</a></p>
+    </section>
 
+    <script>
+      /* Voeg hier de JavaScript-functies toe */
+      function checkAntwoordOpdracht1() {
+        var gekozenAntwoord = document.querySelector('input[name="opdracht1-antwoord"]:checked');
+        if (gekozenAntwoord && gekozenAntwoord.value === "D") {
+          alert("Goed gedaan! Dat is het juiste antwoord!");
+        } else {
+          alert("Helaas, dat is niet het juiste antwoord. Probeer het opnieuw.");
+        }
+      }
+
+      // Voeg hier eventuele andere JavaScript-functies toe voor andere opdrachten
+    </script>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 De Vergeten Wachtwoorden Saga</p>
+  </footer>
+</body>
+</html>
